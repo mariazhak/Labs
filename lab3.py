@@ -61,21 +61,9 @@ in_row_num = 2*n -1
 for i in range(1,n+1):
     stars_num = 2*i - 1
     spaces_num = (in_row_num - stars_num)//2
-    for j in range(0,spaces_num):
-        print(" ", end="")
-    for j in range(0,stars_num):
-        print("*", end="")
-    for j in range(0,spaces_num):
-        print(" ", end="")
-    print("")
+    print(" " * spaces_num, "*" * stars_num, " " * spaces_num)
 
 for i in range(n-1, 0, -1):
     stars_num = 2*i - 1
     spaces_num = (in_row_num - stars_num)//2
-    for j in range(0,spaces_num):
-        print(" ", end="")
-    for j in range(0,stars_num):
-        print("*", end="")
-    for j in range(0,spaces_num):
-        print(" ", end="")
-    print("")
+    print(" " * spaces_num, "*" * stars_num, " " * spaces_num)
