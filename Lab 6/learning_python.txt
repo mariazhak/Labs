@@ -1,0 +1,10 @@
+In Python, you can print output to the console using the print() function.
+In Python, you can declare variables and assign values to them using the assignment operator (=).
+In Python, you can concatenate strings using the + operator or format them using f-strings.
+In Python, you can use the input() function to get user input from the console.
+In Python, you can iterate over sequences like lists and tuples using for loops.
+In Python, you can check conditions using if statements and execute different blocks of code accordingly.
+In Python, you can import modules and reuse code from external sources.
+In Python, you can work with dictionaries to store key-value pairs of data.
+In Python, you can perform arithmetic operations such as addition, subtraction, multiplication, and division.
+In Python, you can create sets to store unique elements and perform set operations like union and intersection.
